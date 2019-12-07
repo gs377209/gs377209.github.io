@@ -19,4 +19,4 @@ github_username:  gs377209
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
