@@ -15,8 +15,15 @@ url: "http://gerrod-schirtzinger.com" # the base hostname & protocol for your si
 twitter_username: Grodthehippy
 facebook_username: gerrod.schirtzinger
 github_username:  gs377209
+show_downloads: false
+google_analytics: ""
 
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
