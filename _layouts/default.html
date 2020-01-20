@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html>
+{% include head.html %}
 
-  {% include head.html %}
+{% include header.html %}
 
-  <body>
+<div class="page-content">
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</div>
 
-    {% include header.html %}
+{% include footer.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+{% include lazyload.html %}
 
-    {% include footer.html %}
+{% include cookie-consent.html %}
 
-  </body>
+</body>
 
 </html>
