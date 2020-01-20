@@ -7,6 +7,6 @@ repo:
     - package/core/*
     - package/core/**/*
 
-# Add 'test' label to any change to test folder dir
+# Add 'test' label to any change to test folder files within the source dir
 test:
     - test/**/*
