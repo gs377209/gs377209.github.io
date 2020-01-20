@@ -1,0 +1,12 @@
+# Add 'repo' label to any root file changes
+repo:
+    - ./*
+
+# Add 'core' label to any change within the 'core' package
+core:
+    - package/core/*
+    - package/core/**/*
+
+# Add 'test' label to any change to test folder files within the source dir
+test:
+    - test/**/*
