@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'rake'
+gem 'test-unit'
 
 group :jekyll_plugins do
   gem 'jekyll-theme-hacker'
