@@ -1,15 +1,27 @@
 {
   "name": "Gerrod Schirtzinger",
   "short_name": "Gerrod Schirtzinger",
-  "start_url": ".",
+  "start_url": "https://www.gerrod-schirtzinger.com",
   "display": "standalone",
-  "background_color": "#fff",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "description": "All you need to know about Gerrod Schirtzinger!",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64",
       "type": "icon"
+    },
+    {
+      "src": "assets/icons/icons-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icons-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }
