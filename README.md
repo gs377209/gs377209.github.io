@@ -20,8 +20,13 @@
 
 1. Run `bundle install` to install the latest gems.
 1. Run `nvm use` to switch to the correct version of node; install it if it is missing.
+1. Run `npm i` to install latest node packages.
 1. Run `bundle exec jekyll serve` to run the local server.
 
 ## Updating The Project
 
+1. Run `bundle outdated` to list outdated gems.
 1. Run `bundle update` to update to the latest gems.
+1. Run `npm outdated` to list outdated node modules.
+1. Run `npm update` to update to the latest node modules.
+1. Copy the `jquery` `dist` folder from `node_modules` to `assets/js/jquery`.
