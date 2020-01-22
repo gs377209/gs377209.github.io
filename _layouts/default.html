@@ -14,7 +14,7 @@
 
 {% include cookie-consent.html %}
 
-<script src="assets/js/jquery/dist/jquery.min.js"></script>
+<script src="{{ "/assets/js/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
 {% include add-to-homescreen.html %}
 
 </body>

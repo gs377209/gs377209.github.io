@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-archives'
   gem 'jekyll-pwa-plugin'
+  gem 'amp-jekyll'
 end
 
-gem "github-pages", group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
