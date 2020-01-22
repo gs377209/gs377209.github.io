@@ -1,0 +1,33 @@
+{
+  "name": "gs377209.github.io",
+  "version": "1.0.0",
+  "description": "My personal jekyll site.",
+  "main": "service-worker.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gs377209/gs377209.github.io.git"
+  },
+  "keywords": [
+    "resume",
+    "blog",
+    "jekyll",
+    "website",
+    "gerrod",
+    "schirtzinger"
+  ],
+  "author": "Gerrod Schirtzinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gs377209/gs377209.github.io/issues"
+  },
+  "homepage": "https://github.com/gs377209/gs377209.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

@@ -12,9 +12,16 @@
 1. Install latest version of `g++` if it is missing.
 1. Run `make -v`.
 1. Install latest version of `make` if it is missing.
-1. If you do not have `bundler` installed, then run `gem install bundler`
+1. If you do not have `bundler` installed, then install it.
+1. If you do not have `nvm` installed, install it.
+1. If you do not have `npm` installed, install it.
 
 ## Running The Project
 
 1. Run `bundle install` to install the latest gems.
+1. Run `nvm use` to switch to the correct version of node; install it if it is missing.
 1. Run `bundle exec jekyll serve` to run the local server.
+
+## Updating The Project
+
+1. Run `bundle update` to update to the latest gems.
