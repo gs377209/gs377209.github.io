@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-11-15 02:09:43 +0000
+author: Gerrod Schirtzinger
 categories: jekyll update
 skip: true
 ---

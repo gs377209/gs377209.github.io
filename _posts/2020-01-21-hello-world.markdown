@@ -2,6 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2020-01-21 23:08:00 +0000
+author: Gerrod Schirtzinger
 categories: hello world
 skip: false
 ---

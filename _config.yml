@@ -8,6 +8,7 @@
 # Site settings
 title: Gerrod Schirtzinger
 email: gerrod.l.schirtzinger@gmail.com
+phone: +1-740-272-1734
 description: > # this means to ignore newlines until "baseurl:"
   All you need to know about Gerrod Schirtzinger!
 baseurl: "" # the subpath of your site, e.g. /blog
