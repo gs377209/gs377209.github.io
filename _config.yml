@@ -17,7 +17,7 @@ twitter_username: Grodthehippy
 facebook_username: gerrod.schirtzinger
 github_username:  gs377209
 show_downloads: false
-google_analytics: ""
+google_analytics: UA-159333795-1
 
 # Build settings
 markdown: kramdown

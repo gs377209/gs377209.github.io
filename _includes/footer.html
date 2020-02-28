@@ -20,10 +20,14 @@
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank" rel="noreferrer noopener"><span class="icon">{% include social-icon.html icon="Facebook" %}</span><span class="username">{{ site.facebook_username }}</span></a>
           </li>
           {% endif %}
         </ul>
