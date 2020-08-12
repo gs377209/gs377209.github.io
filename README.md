@@ -1,5 +1,7 @@
 # GS377209 Jekyll Site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c710635-c4f1-430a-9e0f-e6b086ada215/deploy-status)](https://app.netlify.com/sites/elated-hermann-5c4186/deploys)
+
 ## First Time Setup
 
 1. Run `ruby -v`.
