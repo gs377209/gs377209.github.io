@@ -29,4 +29,4 @@
 1. Run `bundle update` to update to the latest gems.
 1. Run `npm outdated` to list outdated node modules.
 1. Run `npm update` to update to the latest node modules.
-1. Copy the `jquery` `dist` folder from `node_modules` to `assets/js/jquery`.
+1. Copy the files from `node_modules/jquery/dist` to `assets/js/jquery`.
