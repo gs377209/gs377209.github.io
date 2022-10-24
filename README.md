@@ -16,7 +16,6 @@
 1. Install latest version of `make` if it is missing.
 1. If you do not have `bundler` installed, then install it.
 1. If you do not have `nvm` installed, install it.
-1. If you do not have `npm` installed, install it.
 
 ## Running The Project
 
@@ -28,7 +27,7 @@
 ## Updating The Project
 
 1. Run `bundle outdated` to list outdated gems.
-1. Run `bundle update` to update to the latest gems.
+1. Run `bundle update --all` to update to the latest gems.
 1. Run `npm outdated` to list outdated node modules.
-1. Run `npm update` to update to the latest node modules.
+1. Run `npm update -S` to update to the latest node modules.
 1. Copy the files from `node_modules/jquery/dist` to `assets/js/jquery`.
