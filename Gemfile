@@ -12,4 +12,4 @@ group :jekyll_plugins do
   gem 'jekyll-pwa-workbox', '~>5.1'
 end
 
-gem 'github-pages', '~>227', group: :jekyll_plugins
+gem 'github-pages', '~>228', group: :jekyll_plugins
