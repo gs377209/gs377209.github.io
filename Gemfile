@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~>3.9'
 gem 'rake', '~>13.0'
-gem 'test-unit', '~>3.3'
+gem 'test-unit', '~>3.5'
 
 group :jekyll_plugins do
   gem 'jekyll-theme-cayman', '~>0.1'
@@ -12,4 +12,4 @@ group :jekyll_plugins do
   gem 'jekyll-pwa-workbox', '~>5.1'
 end
 
-gem 'github-pages', '~>227', group: :jekyll_plugins
+gem 'github-pages', '~>228', group: :jekyll_plugins
