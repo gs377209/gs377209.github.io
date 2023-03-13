@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/gs377209/gs377209.github.io#readme",
   "dependencies": {
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.4"
   }
 }
