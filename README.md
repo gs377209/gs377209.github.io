@@ -31,3 +31,4 @@
 1. Run `npm outdated` to list outdated node modules.
 1. Run `npm update -S` to update to the latest node modules.
 1. Copy the files from `node_modules/jquery/dist` to `assets/js/jquery`.
+1. Version the package `npm version major|minor|patch`.
