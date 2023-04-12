@@ -1,13 +1,16 @@
 {
   "name": "gs377209.github.io",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "My personal jekyll site.",
   "main": "service-worker.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "preversion": "npm test",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
   },
   "repository": {
     "type": "git",
