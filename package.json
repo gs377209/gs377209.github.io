@@ -9,8 +9,8 @@
   "scripts": {
     "test": "test",
     "preversion": "",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp"
+    "version": "",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
