@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Ruby 2.6
+      - name: Set up Ruby 3.0
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0' # Not needed with a .ruby-version file
