@@ -246,7 +246,7 @@ GEM
       unf (~> 0.1.4)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    test-unit (3.5.8)
+    test-unit (3.5.9)
       power_assert
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
