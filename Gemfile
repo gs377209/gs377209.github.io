@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~>3.9'
 gem 'rake', '~>13.0'
-gem 'test-unit', '~>3.5'
+gem 'test-unit', '~>3.6'
 
 group :jekyll_plugins do
   gem 'jekyll-theme-cayman', '~>0.1'
