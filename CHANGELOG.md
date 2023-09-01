@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.3
+
+- Updated jquery
+
+## v1.3.2
+
+- Updated ruby gems
+
 ## v1.3.1
 
 - Updated ruby gems
