@@ -1,6 +1,6 @@
 {
   "name": "gs377209.github.io",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "My personal jekyll site.",
   "main": "service-worker.js",
   "directories": {
