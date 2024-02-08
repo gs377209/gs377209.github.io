@@ -2,6 +2,11 @@
   "name": "gs377209.github.io",
   "version": "1.3.3",
   "description": "My personal jekyll site.",
+  "engines": {
+    "node": "^18.19.0",
+    "npm": "^10.2.3"
+  },
+  "engineStrict": true,
   "main": "service-worker.js",
   "directories": {
     "test": "test"

@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '3.0.0'
 
 gem 'jekyll', '~>3.9'
 gem 'rake', '~>13.1'

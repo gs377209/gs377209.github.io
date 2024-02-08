@@ -1,12 +1,34 @@
-# Add 'repo' label to any root file changes
-repo:
-    - ./*
+# Add 'root' label to any root file changes
+# Quotation marks are required for the leading asterisk
+root:
+  - changed-files:
+      - any-glob-to-any-file: "*"
 
-# Add 'core' label to any change within the 'core' package
-core:
-    - package/core/*
-    - package/core/**/*
+# Add 'AnyChange' label to any changes within the entire repository
+AnyChange:
+  - changed-files:
+      - any-glob-to-any-file: "**"
 
-# Add 'test' label to any change to test folder files within the source dir
-test:
-    - test/**/*
+# Add 'Documentation' label to any changes within 'docs' folder or any subfolders
+# Add 'Documentation' label to any file changes within 'docs' folder
+# Add 'Documentation' label to any file changes within 'docs' or 'guides' folders
+## Equivalent of the above mentioned configuration using another syntax
+# Add 'Documentation' label to any change to .md files within the entire repository
+Documentation:
+  - changed-files:
+      - any-glob-to-any-file: ["docs/**", "docs/*", "guides/*", "**/*.md"]
+
+# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+source:
+  - all:
+      - changed-files:
+          - any-glob-to-any-file: "src/**/*"
+          - all-globs-to-all-files: "!src/docs/*"
+
+# Add 'feature' label to any PR where the head branch name starts with `feature` or has a `feature` section in the name
+feature:
+  - head-branch: ["^feature", "feature"]
+
+# Add 'release' label to any PR that is opened against the `main` branch
+release:
+  - base-branch: "main"
