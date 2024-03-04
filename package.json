@@ -12,10 +12,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "test",
-    "preversion": "",
-    "version": "",
-    "postversion": "git push && git push --tags"
+    "test": "test"
   },
   "repository": {
     "type": "git",

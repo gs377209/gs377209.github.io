@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.0.1 (2024-03-04)
+
+- Remove version scripts
+
 ## v2.0.0 (2024-03-04)
 
 - Updated gems
