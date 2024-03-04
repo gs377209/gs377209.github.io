@@ -5,20 +5,19 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js from .nvmrc
-      uses: actions/setup-node@v3
-      with:
-        node-version-file: ".nvmrc"
-        cache: 'npm'
-    - run: npm ci
+      - uses: actions/checkout@v4
+      - name: Use Node.js from .nvmrc
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+      - run: npm ci
