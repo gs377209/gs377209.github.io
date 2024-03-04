@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.0 (2024-03-04)
+
+- Updated gems
+- Updated workflow
+
 ## v1.3.3
 
 - Updated jquery
