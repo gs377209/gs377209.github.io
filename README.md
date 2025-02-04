@@ -16,9 +16,11 @@
 1. Install latest version of `make` if it is missing.
 1. If you do not have `bundler` installed, then install it.
 1. If you do not have `nvm` installed, install it.
+1. If you do not have `rvm` installed, install it.
 
 ## Running The Project
 
+1. Run `rvm use 3` to use ruby 3.
 1. Run `bundle install` to install the latest gems.
 1. Run `nvm use` to switch to the correct version of node; install it if it is missing.
 1. Run `npm i` to install latest node packages.
