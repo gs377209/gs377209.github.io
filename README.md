@@ -4,33 +4,24 @@
 
 ## First Time Setup
 
-1. Run `ruby -v`.
-1. Install `ruby 2.4.0` or higher and `ruby-dev` if you need it.
-1. Run `gem -v`.
-1. Install latest version of `gem` if it is missing.
-1. Run `gcc -v`.
-1. Install latest version of `gcc` if it is missing.
-1. Run `g++ -v`.
-1. Install latest version of `g++` if it is missing.
-1. Run `make -v`.
-1. Install latest version of `make` if it is missing.
-1. If you do not have `bundler` installed, then install it.
-1. If you do not have `nvm` installed, install it.
-1. If you do not have `rvm` installed, install it.
+1. If you do not have `rbenv` installed, install it.
+2. If you do not have `bundler` installed, then install it.
+3. If you do not have `nvm` installed, install it.
 
 ## Running The Project
 
-1. Run `rvm use 3` to use ruby 3.
-1. Run `bundle install` to install the latest gems.
-1. Run `nvm use` to switch to the correct version of node; install it if it is missing.
-1. Run `npm i` to install latest node packages.
-1. Run `bundle exec jekyll serve` to run the local server.
+1. Run `rbenv local` to use ruby 3.
+2. Run `bundle install` to install the latest gems.
+3. Run `nvm use` to switch to the correct version of node; install it if it is missing.
+4. Run `npm i` to install latest node packages.
+5. Run `bundle exec jekyll serve --incremental` to run the local server.
+6. Run `rake` to run the tests.
 
 ## Updating The Project
 
 1. Run `bundle outdated` to list outdated gems.
-1. Run `bundle update --all` to update to the latest gems.
-1. Run `npm outdated` to list outdated node modules.
-1. Run `npm update -S` to update to the latest node modules.
-1. Copy the files from `node_modules/jquery/dist` to `assets/js/jquery`.
-1. Version the package `npm version major|minor|patch`.
+2. Run `bundle update --all` to update to the latest gems.
+3. Run `npm outdated` to list outdated node modules.
+4. Run `npm update --save` to update to the latest node modules.
+5. Copy the files from `node_modules/jquery/dist` to `assets/js/jquery`.
+6. Version the package `npm version major|minor|patch`.

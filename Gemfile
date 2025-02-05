@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '>=3.0.0'
+ruby '>=3.3.7'
 
 gem 'jekyll', '~>3.9'
 gem 'rake', '~>13.2'
@@ -14,3 +14,5 @@ group :jekyll_plugins do
 end
 
 gem 'github-pages', '~>232', group: :jekyll_plugins
+
+gem "faraday-retry", "~> 2.2"
