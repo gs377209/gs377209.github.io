@@ -15,4 +15,4 @@ end
 
 gem 'github-pages', '~>232', group: :jekyll_plugins
 
-gem "faraday-retry", "~> 2.2"
+gem "faraday-retry", "~> 2.3"
