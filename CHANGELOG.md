@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.2 (2025-05-06)
+
+- Updates
+
 ## v2.0.1 (2024-03-04)
 
 - Remove version scripts
