@@ -25,3 +25,4 @@
 4. Run `npm update --save` to update to the latest node modules.
 5. Copy the files from `node_modules/jquery/dist` to `assets/js/jquery`.
 6. Version the package `npm version major|minor|patch`.
+7. Update the CHANGELOG.
