@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '>=3.1.1'
 
 gem 'jekyll', '~>3.9'
-gem 'rake', '~>13.2'
+gem 'rake', '~>13.3'
 gem 'test-unit', '~>3.6'
 
 group :jekyll_plugins do
