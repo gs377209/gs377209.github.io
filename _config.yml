@@ -9,11 +9,13 @@
 title: Gerrod Schirtzinger
 email: gerrod.l.schirtzinger@gmail.com
 phone: +1-740-272-1734
+my_location: "Rockford, MI 49341"
 description: > # this means to ignore newlines until "baseurl:"
   All you need to know about Gerrod Schirtzinger!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gerrod-schirtzinger.com" # the base hostname & protocol for your site
 github_username: gs377209
+linkedin: "https://www.linkedin.com/in/gerrod-schirtzinger/"
 show_downloads: false
 google_analytics: UA-159333795-1
 
