@@ -3,7 +3,7 @@ ruby '>=3.1.1'
 
 gem 'jekyll', '~>3.9'
 gem 'rake', '~>13.2'
-gem 'test-unit', '~>3.6'
+gem 'test-unit', '~>3.7'
 
 group :jekyll_plugins do
   gem 'jekyll-theme-cayman', '~>0.1'
