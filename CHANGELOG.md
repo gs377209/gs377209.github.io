@@ -1,5 +1,10 @@
 # Changelog
 
+## v4.0.0 (2026-07-02)
+
+- Updates (major Jquery)
+- Content
+
 ## v3.0.3 (2025-06-17)
 
 - Updates
